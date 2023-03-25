@@ -36,7 +36,6 @@ public class ReservationServiceImpl implements ReservationService {
 
         List<Spot> spotList=parkingLot.getSpotList();
         List<Spot>emptySpots=emptySpots(spotList,numberOfWheels);
-        if(emptySpots==null)throw new Exception("Cannot make reservation");
         int minAmount=Integer.MAX_VALUE;
         Spot requiredSpot = null;
 

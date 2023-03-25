@@ -25,9 +25,7 @@ public class UserServiceImpl implements UserService {
 
         userRepository4.save(user);
 
-        User updatedUser=userRepository4.findById(userId).get();
-
-        return updatedUser;
+        return user;
     }
 
     @Override
