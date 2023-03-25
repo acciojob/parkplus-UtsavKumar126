@@ -44,6 +44,7 @@ public class ParkingLotServiceImpl implements ParkingLotService {
         parkingLot.getSpotList().add(spot);
 
         parkingLotRepository1.save(parkingLot);
+        return spot;
     }
 
     @Override
