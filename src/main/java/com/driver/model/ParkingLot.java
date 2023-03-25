@@ -18,7 +18,7 @@ public class ParkingLot {
     public ParkingLot() {
     }
 
-    public ParkingLot(int id, String name, String address, List<Spot> spotList) {
+    public ParkingLot(String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;
