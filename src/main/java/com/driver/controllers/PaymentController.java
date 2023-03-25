@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(value = "/payment")
 public class PaymentController {
-	
-	@Autowired
+
+    @Autowired
     PaymentServiceImpl paymentService;
 
     @PostMapping("/pay")
